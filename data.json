@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "age": 28,
+        "city": "New York",
+        "email": "john.doe@example.com"
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "age": 35,
+        "city": "Los Angeles",
+        "email": "jane.smith@example.com"
+    },
+    {
+        "id": 3,
+        "name": "Alex Johnson",
+        "age": 22,
+        "city": "Chicago",
+        "email": "alex.johnson@example.com"
+    },
+    {
+        "id": 4,
+        "name": "Emily White",
+        "age": 30,
+        "city": "San Francisco",
+        "email": "emily.white@example.com"
+    },
+    {
+        "id": 5,
+        "name": "Michael Brown",
+        "age": 25,
+        "city": "Miami",
+        "email": "michael.brown@example.com"
+    },
+    {
+        "id": 6,
+        "name": "Sophia Lee",
+        "age": 28,
+        "city": "Seattle",
+        "email": "sophia.lee@example.com"
+    },
+    {
+        "id": 7,
+        "name": "William Turner",
+        "age": 32,
+        "city": "Boston",
+        "email": "william.turner@example.com"
+    },
+    {
+        "id": 8,
+        "name": "Olivia Harris",
+        "age": 27,
+        "city": "Denver",
+        "email": "olivia.harris@example.com"
+    },
+    {
+        "id": 9,
+        "name": "Daniel Miller",
+        "age": 29,
+        "city": "Austin",
+        "email": "daniel.miller@example.com"
+    },
+    {
+        "id": 10,
+        "name": "Ava Martinez",
+        "age": 24,
+        "city": "Atlanta",
+        "email": "ava.martinez@example.com"
+    }
+]
