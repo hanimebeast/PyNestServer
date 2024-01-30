@@ -1,5 +1,6 @@
 import json
 import os
+import sys
 from flask import Flask, jsonify
 
 app = Flask(__name__)
@@ -49,13 +50,12 @@ def nested_data(keys=""):
         return jsonify({"error": str(e)}), 400
 
 if __name__ == '__main__':
-    import sys
-
     if len(sys.argv) < 2:
-        print("Usage: python main.py <json_file_path>")
+        print("Usage: python main.py <json_file_path> [port]")
         sys.exit(1)
 
     json_file_path = sys.argv[1]
+    port = int(sys.argv[2]) if len(sys.argv) > 2 else 7070
     absolute_path = os.path.abspath(os.path.join(os.path.dirname(__file__), json_file_path))
 
     data = load_data_from_file(absolute_path)
@@ -64,4 +64,5 @@ if __name__ == '__main__':
         print(f"Error: Unable to load data from file: {absolute_path}")
         sys.exit(1)
 
-    app.run(port="8080", debug=True)
+    app.run(port=port, debug=False)
+
