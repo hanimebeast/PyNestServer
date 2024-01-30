@@ -3,12 +3,7 @@
 This is a simple Flask API for retrieving nested data from a JSON file.
 
 ## Video
-<video controls width="250">
-  <source src="json-server.webm" type="video/webm" />
-  Download the
-  <a href="json-server.webm">WEBM</a>
-  video.
-</video>
+[![json server usage by immodded](json-server.gif) ](json-server.webm) 
 
 ## Usage
 
